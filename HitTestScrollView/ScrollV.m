@@ -48,6 +48,7 @@
 - (void)click{
     NSLog(@"EREFEFREWREWFEFEQWFEWFE");
 }
+
 #pragma mark---修改hitTest方法
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     UIView *view = [super hitTest:point withEvent:event];
